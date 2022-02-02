@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+}
+
+.left-side {
+    flex: 0 0 1500px;
+    background: rgba(150, 110, 136, 0.7);
+}
+
+.right-side {
+    flex: 0 0 800px;
+    background: rgba(42, 46, 65, 0.7);
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
